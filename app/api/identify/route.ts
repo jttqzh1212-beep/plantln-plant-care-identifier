@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+export const runtime = 'edge'
+
 const PLANT_ID_API = 'https://api.plant.id/v2/identify'
 
 export async function POST(req: NextRequest) {
